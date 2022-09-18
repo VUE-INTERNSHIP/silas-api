@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>Employee List</h1>  
+      <h1>Fetched Data Using Axios Api</h1>  
       <div v-for="item in list" v-bind:key="item.id">
         <p>Brand:{{item.brand}}</p>
         <p>Category:{{item.category}}</p>
